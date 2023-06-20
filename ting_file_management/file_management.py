@@ -1,11 +1,12 @@
 import sys
 
+
 def txt_importer(path_file):
     if not path_file.endswith(".txt"):
         sys.stderr.write("Formato inválido\n")
         return []
 
-    try: 
+    try:
         file = open(path_file, "r")
         reading = file.read()
         lines = reading.split("\n")
