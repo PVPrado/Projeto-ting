@@ -22,5 +22,6 @@ def exists_word(word, queue_instance):
 
     return search_results
 
+
 def search_by_word(word, instance):
     """Aqui irá sua implementação"""
